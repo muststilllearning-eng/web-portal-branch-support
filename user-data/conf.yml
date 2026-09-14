@@ -8,8 +8,8 @@ pageInfo:
   description: Portal link kerja tim IT Support
 
 appConfig:
-  theme: Cherry-Blossom
-  layout: Horizontal
+  theme: cherry-blossom
+  layout: horizontal
   iconSize: small
   language: id
   statusCheck: true
