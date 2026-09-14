@@ -57,9 +57,13 @@ sections:
         url: 'https://ds3.cinema21.co.id/login'
         icon: favicon
         statusCheck: true
-      - title: Inventory Support
-        description: Inventory Support
-        url: 'https://inventory-support.pages.dev/login/'
+        
+  - name: Project Trackker
+    icon: fas fa-project
+    items:
+      - title: Project Management
+        description: Project Opening
+        url: 'https://project21-support.web.id/'
         icon: favicon
         statusCheck: true
 
@@ -72,10 +76,10 @@ sections:
         icon: favicon
         statusCheck: true
 
-  - name: Software Tools & Doc
+  - name: Software & Tools
     icon: fas fa-book
     items:
-      - title: Notion - File IT Branch Support
+      - title: Software & Tools
         description: Dokumentasi & file IT Branch Support
         url: 'https://app.notion.com/p/branch-support/FILE-IT-BRANCH-SUPPORT-29914bc33ce8803fa8dcdc86402ecd60?source=copy_link'
         icon: favicon
