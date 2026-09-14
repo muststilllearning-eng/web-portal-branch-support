@@ -4,13 +4,13 @@
 # agar berlaku untuk semua user.
 
 pageInfo:
-  title: Portal IT Branch Support
+  title: Portal Link IT Branch Support
   description: Portal link kerja tim IT Support
 
 appConfig:
-  theme: basic
-  layout: auto
-  iconSize: medium
+  theme: Cherry-Blossom
+  layout: Horizontal
+  iconSize: small
   language: id
   statusCheck: true
   statusCheckInterval: 60
