@@ -1,59 +1,82 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Lissy93/dashy/master/src/utils/config/ConfigSchema.json
 ---
-# Page meta info, like heading, footer text and nav links
+# Portal IT Branch Support
+# Konfigurasi Dashy. Ubah theme lewat dropdown di UI, lalu Export ke file ini
+# agar berlaku untuk semua user.
+
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+  title: Portal IT Branch Support
+  description: Portal link kerja tim IT Support
 
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: basic
+  layout: auto
+  iconSize: medium
+  language: id
+  statusCheck: true
+  statusCheckInterval: 60
 
-# Main content - An array of sections, each containing an array of items
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
+  - name: Monitoring Cinema
+    icon: fas fa-film
     items:
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: si-github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
+      - title: DC21
+        description: Monitoring Cinema
+        url: 'https://dc21-monitor.cinema21.co.id'
+        icon: favicon
+        statusCheck: true
 
-  - name: Support Dashy
-    icon: fas fa-heart
-    displayData:
-      itemSize: large
-    widgets:
-      - type: image
-        label: Dashy is made possible thanks to our awesome sponsors
-        options:
-          imagePath: https://readme-contribs.as93.net/sponsors/lissy93?perRow=5&shape=squircle
+  - name: Monitoring Cafe
+    icon: fas fa-mug-hot
     items:
-      - title: Sponsor
-        url: https://github.com/sponsors/lissy93
-        description: Sponsor @Lissy93 on GitHub to support with ongoing development of Dashy
-        icon: 🩷
-        color: '#ff78d1'
-        backgroundColor: '#c30c844a'
+      - title: Ravintola Sky
+        description: Monitoring Cafe
+        url: 'https://xxicafe.cinema21.co.id/web/login/?next=/'
+        icon: favicon
+        statusCheck: true
+      - title: Magic Info Booth
+        description: Magic Info Booth
+        url: 'https://magicinfo.cinema21.co.id/MagicInfo/login'
+        icon: favicon
+        statusCheck: true
+      - title: Cafe Box
+        description: Cafe Box
+        url: 'https://cafebox.cinema21.co.id/login'
+        icon: favicon
+        statusCheck: true
 
-  - name: Latest Updates
-    icon: fas fa-code-branch
-    displayData:
-      cols: 1
-      rows: 3
-      cutToHeight: true
-    widgets:
-      - type: rss-feed
-        options:
-          rssUrl: https://github.com/lissy93/dashy/releases.atom
-          limit: 5
+  - name: Monitoring Digital Signage
+    icon: fas fa-desktop
+    items:
+      - title: Next Gen
+        description: Digital Signage Next Gen
+        url: 'https://x-one.cinema21.co.id/login'
+        icon: favicon
+        statusCheck: true
+      - title: DS3
+        description: Digital Signage DS3
+        url: 'https://ds3.cinema21.co.id/login'
+        icon: favicon
+        statusCheck: true
+      - title: Inventory Support
+        description: Inventory Support
+        url: 'https://inventory-support.pages.dev/login/'
+        icon: favicon
+        statusCheck: true
+
+  - name: Ticket Helpdesk
+    icon: fas fa-headset
+    items:
+      - title: Helpdesk
+        description: Ticket Helpdesk
+        url: 'https://help.cinema21.co.id/auth/login'
+        icon: favicon
+        statusCheck: true
+
+  - name: Software Tools & Doc
+    icon: fas fa-book
+    items:
+      - title: Notion - File IT Branch Support
+        description: Dokumentasi & file IT Branch Support
+        url: 'https://app.notion.com/p/branch-support/FILE-IT-BRANCH-SUPPORT-29914bc33ce8803fa8dcdc86402ecd60?source=copy_link'
+        icon: favicon
+        statusCheck: true
