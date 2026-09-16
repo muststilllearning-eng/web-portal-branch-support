@@ -54,7 +54,7 @@ sections:
         icon: favicon
         statusCheck: true
 
-  - name: Monitoring Digital Signage
+  - name: Monitoring X-ONE & DS3
     icon: fas fa-desktop
     items:
       - title: Next Gen
@@ -62,14 +62,14 @@ sections:
         url: 'https://x-one.cinema21.co.id/login'
         icon: favicon
         statusCheck: true
-      - title: Schedule X-ONE
-        description: Check Schedule X-ONE
-        url: 'https://x-one.cinema21.co.id/WebServices/TrafficIntegration?k=2345435&m=schedule&v=2&t=BLPEWAL_1'
-        icon: favicon
-        statusCheck: true
       - title: Playlist X-ONE
         description: Check Playlist X-ONE
         url: 'https://x-one.cinema21.co.id/WebServices/TrafficIntegration?k=2345435&m=orderlist.v3&v=2&t=BLPEWAL_1'
+        icon: favicon
+        statusCheck: true
+      - title: Schedule X-ONE
+        description: Check Schedule X-ONE
+        url: 'https://x-one.cinema21.co.id/WebServices/TrafficIntegration?k=2345435&m=schedule&v=2&t=BLPEWAL_1'
         icon: favicon
         statusCheck: true
       - title: DS3
