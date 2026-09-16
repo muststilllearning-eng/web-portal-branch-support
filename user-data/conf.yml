@@ -29,12 +29,7 @@ sections:
         url: 'https://manager.cinema21.co.id/'
         icon: favicon
         statusCheck: true
-      - title: Mtix Admin
-        description: Monitoring Mtix 
-        url: 'https://mtixadmin.cinema21.co.id/mtix-admin/'
-        icon: favicon
-        statusCheck: true
-
+        
   - name: Monitoring Cafe
     icon: fas fa-mug-hot
     items:
@@ -54,7 +49,7 @@ sections:
         icon: favicon
         statusCheck: true
 
-  - name: Monitoring X-ONE & DS3
+  - name: Monitoring X-One & DS3
     icon: fas fa-desktop
     items:
       - title: Next Gen
