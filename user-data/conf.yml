@@ -8,9 +8,9 @@ pageInfo:
   description: Portal link kerja tim IT Support
 
 appConfig:
-  theme: cherry-blossom
-  layout: horizontal
-  iconSize: small
+  theme: aurora
+  layout: auto
+  iconSize: large
   language: id
   statusCheck: true
   statusCheckInterval: 60
@@ -22,6 +22,16 @@ sections:
       - title: DC21
         description: Monitoring Cinema
         url: 'https://dc21-monitor.cinema21.co.id'
+        icon: favicon
+        statusCheck: true
+        - title: Portal Manager
+        description: Portal Web Manager
+        url: 'https://manager.cinema21.co.id/'
+        icon: favicon
+        statusCheck: true
+        - title: Mtix Admin
+        description: Monitoring Mtix
+        url: 'https://mtixadmin.cinema21.co.id/mtix-admin/'
         icon: favicon
         statusCheck: true
 
@@ -48,7 +58,7 @@ sections:
     icon: fas fa-desktop
     items:
       - title: Next Gen
-        description: Digital Signage Next Gen
+        description: Monitoring X-ONE
         url: 'https://x-one.cinema21.co.id/login'
         icon: favicon
         statusCheck: true
@@ -58,11 +68,11 @@ sections:
         icon: favicon
         statusCheck: true
         
-  - name: Project Trackker
-    icon: fas fa-project
+  - name: Project Opening
+    icon: fas fa-briefcase
     items:
       - title: Project Management
-        description: Project Opening
+        description: Project Tracker
         url: 'https://project21-support.web.id/'
         icon: favicon
         statusCheck: true
@@ -80,7 +90,7 @@ sections:
     icon: fas fa-book
     items:
       - title: Software & Tools
-        description: Dokumentasi & file IT Branch Support
+        description: Software & Doc Pendukung
         url: 'https://app.notion.com/p/branch-support/FILE-IT-BRANCH-SUPPORT-29914bc33ce8803fa8dcdc86402ecd60?source=copy_link'
         icon: favicon
         statusCheck: true
