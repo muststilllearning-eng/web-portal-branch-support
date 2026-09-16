@@ -24,11 +24,6 @@ sections:
         url: 'https://dc21-monitor.cinema21.co.id'
         icon: favicon
         statusCheck: true
-        - title: Mtix Admin
-        description: Monitoring Mtix
-        url: 'https://mtixadmin.cinema21.co.id/mtix-admin/'
-        icon: favicon
-        statusCheck: true
 
   - name: Monitoring Cafe
     icon: fas fa-mug-hot
