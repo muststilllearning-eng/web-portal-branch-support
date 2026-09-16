@@ -24,6 +24,11 @@ sections:
         url: 'https://dc21-monitor.cinema21.co.id'
         icon: favicon
         statusCheck: true
+      - title: Portal Manager
+        description: Website Portal Manager
+        url: 'https://manager.cinema21.co.id/'
+        icon: favicon
+        statusCheck: true  
 
   - name: Monitoring Cafe
     icon: fas fa-mug-hot
