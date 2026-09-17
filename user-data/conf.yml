@@ -73,6 +73,15 @@ sections:
         icon: favicon
         statusCheck: true
         
+  - name: Ticket Helpdesk
+    icon: fas fa-headset
+    items:
+      - title: Helpdesk
+        description: Ticket Helpdesk
+        url: 'https://help.cinema21.co.id/auth/login'
+        icon: favicon
+        statusCheck: true
+        
   - name: Project Opening
     icon: fas fa-briefcase
     items:
@@ -82,12 +91,12 @@ sections:
         icon: favicon
         statusCheck: true
 
-  - name: Ticket Helpdesk
-    icon: fas fa-headset
+  - name: Monitoring FPKB
+    icon: fas fa-truck
     items:
-      - title: Helpdesk
-        description: Ticket Helpdesk
-        url: 'https://help.cinema21.co.id/auth/login'
+      - title: Procurement APP
+        description: FPKB Tracker
+        url: 'https://fnb.cinema21.co.id/procurement-app/public/login.php'
         icon: favicon
         statusCheck: true
 
