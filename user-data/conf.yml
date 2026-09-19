@@ -121,3 +121,8 @@ sections:
         url: 'https://cinema21-my.sharepoint.com/:x:/g/personal/01001110149_cinema21_co_id/IQDlAuV_gE-FSp9P6lsouzFyAdavWSLqid4hDs8CGtat99E?email=deni.afrija%40cinema21.co.id&e=6yz78k'
         icon: favicon
         statusCheck: true
+      - title: Jadwal Piket IT
+        description: Jadwal Stanby Weekend
+        url: 'https://cinema21-my.sharepoint.com/:x:/r/personal/01001110149_cinema21_co_id/_layouts/15/Doc.aspx?sourcedoc=%7B7D2E527A-5CE6-44A7-9A1A-CDF00561E0A4%7D&file=Jadwal%20Standby%20Hari%20Libur%20&%20Tanggal%20Merah.xlsx=&action=default&mobileredirect=true'
+        icon: favicon
+        statusCheck: true
