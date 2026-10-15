@@ -40,7 +40,7 @@ sections:
         statusCheck: true
       - title: Magic Info Booth
         description: Magic Info Booth
-        url: 'https://magicinfo.cinema21.co.id/MagicInfo/login'
+        url: 'http://magicinfo.cinema21.co.id/MagicInfo/login'
         icon: favicon
         statusCheck: true
       - title: Cafe Box
