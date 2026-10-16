@@ -69,7 +69,7 @@ sections:
         statusCheck: true
       
   - name: Monitoring DS3
-    icon: fas fa-rectangle-ad
+    icon: fas fa-tv
     items:
       - title: DS3
         description: Digital Signage DS3
