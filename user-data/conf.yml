@@ -95,7 +95,7 @@ sections:
         url: 'https://help.cinema21.co.id/auth/login'
         icon: favicon
         statusCheck: true
-      - title: Helpdesk HO
+      - title: Helpdesk Head Office
         description: Ticket Helpdesk HO
         url: 'https://support.cinema21.co.id/login.php'
         icon: favicon
