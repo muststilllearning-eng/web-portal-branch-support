@@ -29,6 +29,11 @@ sections:
         url: 'https://manager.cinema21.co.id/'
         icon: favicon
         statusCheck: true
+      - title: 21 Cineplex
+        description: Website Movie Cinema
+        url: 'https://m.21cineplex.com/id'
+        icon: favicon
+        statusCheck: true
         
   - name: Monitoring Cafe
     icon: fas fa-mug-hot
@@ -85,9 +90,14 @@ sections:
   - name: Ticket Helpdesk
     icon: fas fa-headset
     items:
-      - title: Helpdesk
+      - title: Helpdesk Outlet
         description: Ticket Helpdesk
         url: 'https://help.cinema21.co.id/auth/login'
+        icon: favicon
+        statusCheck: true
+      - title: Helpdesk HO
+        description: Ticket Helpdesk HO
+        url: 'https://support.cinema21.co.id/login.php'
         icon: favicon
         statusCheck: true
         
